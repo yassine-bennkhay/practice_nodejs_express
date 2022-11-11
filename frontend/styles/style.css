@@ -60,7 +60,7 @@ body {
     display: flex;
   }
   .navbar-links {
-     display: none;
+    display: none;
     width: 100%;
   }
   .navbar {
@@ -70,15 +70,25 @@ body {
   .navbar-links ul {
     flex-direction: column;
     width: 100%;
-   
   }
-  .navbar-links li{
+  .navbar-links li {
     text-align: center;
   }
-  .navbar-links li a{
-    padding: .5rem 1rem;
+  .navbar-links li a {
+    padding: 0.5rem 1rem;
   }
-  .navbar-links.active{
+  .navbar-links.active {
     display: flex;
   }
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 500px;
+  margin: auto;
+  border: 2px solid grey;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
